@@ -1,0 +1,37 @@
+{
+  "name": "rosie_controller_remotes",
+  "version": "0.1.0",
+  "description": "Adds IR functionality to the Rosie Controller.",
+  "author": "Scott Olson",
+  "license": "MIT",
+  "keywords": [
+    "home",
+    "automation",
+    "rosie",
+    "remotes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Olson3R/rosie_controller_remotes"
+  },
+  "bugs": {
+    "url": "https://github.com/Olson3R/rosie_controller_remotes/issues"
+  },
+  "homepage": "https://github.com/Olson3R/rosie_controller_remotes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/rejoice/bin/rejoice -c index.json -p ./"
+  },
+  "dependencies": {
+    "bluebird": "^2.9.34",
+    "good": "^6.3.0",
+    "good-console": "^5.0.3",
+    "hapi": "^8.2.0",
+    "joi": "^6.5.0",
+    "rejoice": "^2.0.1",
+    "request": "^2.58.0",
+    "underscore": "^1.8.3",
+    "url": "^0.10.3"
+  }
+}
