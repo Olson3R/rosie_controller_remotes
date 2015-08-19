@@ -1,0 +1,40 @@
+{
+  "connections": [
+    {
+      "port": 4001,
+      "routes": {
+        "cors": {
+          "credentials": true
+        }
+      },
+      "router": {
+        "isCaseSensitive": false,
+        "stripTrailingSlash": true
+      },
+      "labels": ["api", "rest", "controller", "remotes"]
+    }
+  ],
+  "plugins": {
+    "good": {
+      "reporters": [
+        {
+          "reporter": "good-console",
+          "events": {
+            "response": "*",
+            "ops": "*",
+            "error": "*",
+            "log": "*"
+          }
+        }
+      ]
+    },
+    "./": {
+      "IR_TRANSMITTER_URL": "http://192.168.8.12/send.htm",
+      "REMOTE_LIST": [
+        {"id": "receiver", "title": "Receiver", "key": "denon avr-988"},
+        {"id": "tv", "title": "TV", "key": "samsung ln46a750"},
+        {"id": "ps3", "title": "PS3", "key": "ps3"}
+      ]
+    }
+  }
+}
