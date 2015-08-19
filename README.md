@@ -1,5 +1,5 @@
 # rosie_controller_remotes
-A plugin for the Rosie controller application that adds the ability to interface with an ethernet connected IR blaster. Adds /remotes endpoints.
+A plugin for the [Rosie Controller](https://github.com/Olson3R/rosie_controller) application that adds the ability to interface with an ethernet connected IR blaster. Adds /remotes endpoints.
 
 # Dependencies
 1. Ethernet Connected IR Blaster: Developed for [IRTrans Ethernet](http://www.irtrans.de/en/technicalinfo/lan.php)
